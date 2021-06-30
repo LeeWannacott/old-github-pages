@@ -1,0 +1,29 @@
+span.inline {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: blue; 
+  color:white;
+}
+
+span.inline-block {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: purple; 
+  color:white;
+}
+
+span.block {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: darkgreen; 
+  color:white;
+}
