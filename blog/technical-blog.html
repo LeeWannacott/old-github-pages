@@ -4,31 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/technical-blog.css" />
+    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
     <title>Technical blog.</title>
   </head>
   <body>
-    <h2>What does it mean to display inline vs inline blocks?</h2>
+    <div class="containing-border">
+      <h2>What does it mean to display inline vs inline blocks?</h2>
 
-    <h3>Example: display:inline</h3>
-    <span class="inline">Element one.</span>
-    <span class="inline">Element two.</span>
-    <h3>Example: display:inline-block</h3>
-    <span class="inline-block">Block one</span>
-    <span class="inline-block">Block two.</span>
-    <p>
-      The main difference is display: inline-block allows width and height to be
-      set on an element.
-    </p>
-    <p>
-      inline-block respects top and bottom margins/padding. display: inline does
-      not.
-    </p>
-    <h3>Example: display:block</h3>
-    <span class="block">Block one</span> <span class="block">Block two.</span>
-    <p>
-      display: block the difference is that display: inline-block does not add a
-      line-break after the element, so the element can sit next to other
-      elements.
-    </p>
+      <h3>Example: display: inline;</h3>
+      <span class="inline">Element one.</span>
+      <span class="inline">Element two.</span>
+      <p>Show elements next to each other horizontally.</p>
+      <h3>Example: display: inline-block;</h3>
+      <span class="inline-block">Block one</span>
+      <span class="inline-block">Block two.</span>
+      <p>
+        The main difference is display: inline-block allows width and height to
+        be set on an element.
+      </p>
+      <p>
+        <i>display: inline-block</i> respects top and bottom margins/padding.
+      </p>
+      <p>
+        <i>display: inline-block</i> does not add a line-break after the
+        element; so the elements can sit next to other elements hence the term:
+        inline.
+      </p>
+      <h3>Example: display: block;</h3>
+      <span class="block">Block one</span> <span class="block">Block two.</span>
+      <p>
+        <i>display:block</i> can be used to have images stacked on top of each
+        other.
+        <p>
+        <i>display:block</i> as demonstrated by being on the left hand side of the page doesn't <i>text align: center.</i>
+        </p>
+      </p>
+    </div>
   </body>
 </html>

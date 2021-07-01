@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+   font-family: 'Open Sans',serif;
+   justify-content:"center";
+}
+.containing-border{
+  background-color:#073642;
+  border: 25px solid black;
+  color:white;
+  text-align:center;
+}
