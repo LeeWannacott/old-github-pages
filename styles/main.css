@@ -5,8 +5,12 @@ body{
    justify-content:"center";
 }
 .containing-border{
+  margin:auto;
   background-color:#073642;
   border: 25px solid black;
   color:white;
   text-align:center;
+  width: 100ch;
+  padding:1em;
+
 }
