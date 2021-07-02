@@ -1,16 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-body{
-   font-family: 'Open Sans',serif;
-   justify-content:"center";
+body {
+  font-family: "Open Sans", serif;
+  justify-content: "center";
 }
-.containing-border{
-  margin:auto;
-  background-color:#073642;
+.containing-border {
+  margin: auto;
+  background-color: #073642;
   border: 25px solid black;
-  color:white;
-  text-align:center;
+  color: white;
   width: 100ch;
-  padding:1em;
-
+  padding: 1em;
+  border-radius:1.2em;
+  box-shadow: 5px 10px #888888;
+  margin-bottom:2em;
+   
 }
+a:visited {
+  color: green;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
