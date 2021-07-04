@@ -3,6 +3,7 @@
 body {
   font-family: "Open Sans", serif;
   justify-content: "center";
+  font-size:1.1em;
 }
 .containing-border {
   margin: auto;
@@ -11,20 +12,56 @@ body {
   color: white;
   width: 100ch;
   padding: 1em;
-  border-radius:1.2em;
+  border-radius: 1.2em;
   box-shadow: 5px 10px #888888;
-  margin-bottom:2em;
-   
+  margin-bottom: 2em;
 }
 a:visited {
-  color: green;
+  color: blueviolet;
 }
 /* unvisited link */
 a:link {
-  color: red;
+  color: paleturquoise;
 }
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: lightcyan;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #b58900;
+}
+h3 {
+  color: #6c71c4;
+}
+
+.social-icons a {
+  font-size: 100px;
+  margin-right: 1em;
+  color: #b58900;
+}
+
+.fab:hover {
+  cursor: pointer;
+  color: purple;
+  scale: 1.1;
+}
+.fa:hover {
+  cursor: pointer;
+  color: purple;
+  scale: 1.1;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.identity-values-images {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
