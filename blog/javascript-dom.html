@@ -9,12 +9,24 @@
   <body>
     <div class="containing-border">
       <h2>1. An analogy to describe the differences between HTML and CSS</h2>
-      If you were writing a book HTML is the words on the page; CSS would 
-      describe where the page numbers are, the font, whether the title has fancy typography,
-      that quotes are indented on both sides, how far across a page before the
-      words should wrap, the colour theme if any of the book. Whereas HTML is the title,
-      the paragraph and the pictures, CSS would determine the size of the pictures
-      and where they are layed out..
+      If you were writing a book HTML is the words on the page; CSS would
+      describe where the page numbers are, the font, whether the title has fancy
+      typography, that quotes are indented on both sides, how far across a page
+      before the words should wrap, the colour theme if any of the book
+      (another words the style). Whereas
+      HTML is the title, the paragraph and the pictures another words the
+      structures (like bones in a body), CSS would determine the
+      size of the pictures and where they are layed out..
+
+      <br />
+      <br />
+
+      
+      <img
+        class="identity-values-images"
+        src=" https://miro.medium.com/max/1400/1*lXKAoEYXdDvEUV8TeeqeBg.png "
+        alt=""
+      />
 
       <h2>
         2. Explain control flow and loops using an example process from everyday
@@ -29,29 +41,77 @@
       not a strict looping process. But with computers it makes sense to
       explicity use a loop and we have to be very specific with telling the
       computer what to do.
-      <br>
-      <br>
-      <img class="identity-values-images" src=" https://garlicdelight.com/wp-content/uploads/20210319-reverse-shopping-list-768x768.png" alt="">
+      <br />
+      <br />
+      <img
+        class="identity-values-images"
+        src=" https://www.eatwell101.com/wp-content/uploads/2012/02/A-Beginner%E2%80%99s-Shopping-List.jpg "
+        alt=""
+      />
       <h2>
         3. Describe what the DOM is and an example of how you might interact
         with it.
       </h2>
       The HTML DOM outlines the structure of Objects that exist in a browser
-      window and web page/document of which you can call methods and properties
-      with. Like for example you might want to get the width and height of the
-      browser window which you can get by using the Window Object property Window.screen.width
-      or Window.screen.height. 
-      
-  
+      window (Chrome, firefox, etc...) and web page/document of which you can
+      call methods and properties with. Like for example you might want to get
+      the width and height of the browser window which you can get by using the
+      Window Object's property Window.screen.width ,or/and Window.screen.height.
+      <br />
+      <br />
 
+      <img
+        class="identity-values-images"
+        src=" https://i.stack.imgur.com/zteTp.jpg "
+        alt=""
+      />
       <h2>
         4. Explain the difference between accessing data from arrays and
         objects.
       </h2>
+      Data can be accessed from Objects by using dot notation. Object.property
+      to access properties; which is a variable belonging to an Object and
+      Object.method() for methods; which is a function you can call that belongs
+      to an Object.
 
+      <br />
+      <br />
+      Arrays are accesed by using square brackets with an index number. Like so:
+      Array[0]
+      <br />
+      <h3>
+        Example accessing Object's properties with dot noation or brackets:
+      </h3>
+      <br />
+      var vehicle ={ boat : 'Boaty McBoatFace' plane : 'Boeing 747' car : 'Ford
+      Escort MK II' }
+      <br />
+      vehicle.boat or vehicle['plane'] returns: Boaty McBoatFace and Boeing 747
+      <br />
+      <br />
+      <h3>Example accessing array with indexing:</h3>
+      <br />
+      const cars = ["Saab", "Volvo", "BMW"];
+      <br />
+      let x = cars[0]; // x = "Saab"
 
       <h2>5. Explain what functions are and why they are useful.</h2>
 
+      functions take inputs and have a series of steps/processes that do
+      something with the input and then return an output (except for pure
+      functions which have no side-effects to the input). <br /><br />Think of
+      baking a cake which takes ingredients as input (parameters in function)
+      and inside the function it will do operations (like mixing ingredients,
+      putting it in the oven) to bake the cake and then returns an output (a
+      baked cake).
+      <br />
+      <br />
+      <img src="https://i.stack.imgur.com/7tji1.png" alt="" />
+      <br />
+      <br />
+      functions are useful because it allows us to encapsulate data inside of
+      the function so that processes dont affect other parts of our code and
+      cause potential bugs.
     </div>
   </body>
 </html>
